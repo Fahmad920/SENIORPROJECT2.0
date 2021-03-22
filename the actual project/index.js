@@ -21,3 +21,7 @@ app.get('/quiz', (req, res) => { //If user types in http://localhost3000/quiz, i
 app.get('/result', (req, res) => { //If user types in http://localhost3000/result, it will take them to the page that would show their quiz results/all the majors
 	res.sendFile('./result.html', {root: __dirname}); //sending result.html to the website
 });
+
+app.get('/majors', (req, res) => { //If user types in http://localhost3000/majors, it will take them to the page that would show major descriptions
+	res.sendFile('./majors.html', {root: __dirname}); //sending majors.html to the website
+});
