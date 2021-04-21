@@ -7,7 +7,7 @@
 	
 	<style>
 		body{
-			font-family: Happy Monkey, monospace;
+			font-family: Happy Monkey, cursive;
 			text-align: center;
 		}
 		
@@ -17,15 +17,58 @@
 			margin-bottom:-8px;
 		}
 		
+		/* dotted blue border*/
+		hr.dottedborder{
+			border-top: 10px dotted #99ccff;
+			width: 35%;
+			float: left;
+		}
+		
+		.home-content{
+			background-color: black;
+			width: 100%;
+			height: 80px;
+		}
+		.majors-page{
+			background-color: black;
+			width: 100%;
+			height: 50px;
+		}
+		
+		button{
+			font-family: Happy Monkey, cursive;
+			text-align: center;
+			background: #99ccff;
+			border: 1px solid #99ccff;
+			border-radius: 5px;
+			padding: 15px;
+			color:white;
+		}
+	
 	</style>
 </head> 
 <body>
-	<nav> <!nav allows for the navigation through the pages on the website->
-		<div class="majors-page">
-			<h1>Majors</h1>
-		</div>
 	
-	</nav>
+		<div class="majors-page">
+			<h1 style="color:white; text-align: center">Majors</h1>
+		</div>
+		<nav> <!nav allows for the navigation through the pages on the website->
+	
+	 <div class = "home-content"> <!the area on the website where the quiz button is at->
+		<button>
+			Home
+		</button>
+		<button>
+			Quiz
+		</button>
+		<button>
+			Login
+		</button>
+	</div>
+</nav>
+		
+		
+		
 		<div id = "textbox-business"> <!the area on the website business is at->
 		 <p><strong>Business</strong></p> <!Business heading->
 		 <p> A business major learns fundamental business knowledge in 
@@ -37,8 +80,8 @@
 		 	Statistician
 		 	<br></br>
 		 </p>
-		 
-		 <div class="circle"></div>
+		 <hr class="dottedborder">
+		 <br></br>
 		 
 	</div>
 	<div id = "textbox-computerscience/math"> <!the area on the website cs/math is at->
@@ -51,7 +94,10 @@
 		 	Information Technology specialist<br>
 		 	Research and Development scientist<br>
 		 	Software Engineer
+		 	<br></br>
 		 </p>
+		  <hr class="dottedborder">
+		 <br></br>
 		 
 	</div>
 	
@@ -64,7 +110,10 @@
 		 	Mechanical Engineer<br>
 		 	Aerospace Engineer<br>
 		 	Environmental Engineer
+		 	<br></br>
 		 </p>
+		 <hr class="dottedborder">
+		 <br></br>
 		 
 	</div>
 	
@@ -78,9 +127,10 @@
 				Therapists<br>
 				Pharmacist<br>
 				Nurses
-		
-		
+			<br></br>
 		 </p>
+		 <hr class="dottedborder">
+		 <br></br>
 	</div>
 	
 	<div id = "textbox-social science/law"> <!-the social science/law section>
@@ -93,9 +143,10 @@
 			Sociologist<br>
 			Criminal Justice Professional<br>
 			Economist
-		
-		
+			<br></br>
 		 </p>
+		 <hr class="dottedborder">
+		 <br></br>
 	</div>
 	
 	<div id = "textbox-communication & public services"> <!-the communications/public services section>
@@ -109,8 +160,10 @@
 			Law Enforcement<br>
 			Firefighter<br>
 			Social Media manager<br>
-		
+			<br></br>
 		 </p>
+		 <hr class="dottedborder">
+		 <br></br>
 	</div>
 	
 	<div id = "textbox-education"> 
@@ -122,9 +175,10 @@
 			Teacher<br>
 			School counselor<br>
 			Education Administration<br>
-
-		
+			<br></br>
 		 </p>
+		 <hr class="dottedborder">
+		 <br></br>
 	</div>
 	
 	<div id = "textbox-art"> 
@@ -137,8 +191,10 @@
 			Painting/Sculpting/Drawing<br>
 			Dance<br>
 			Film/Theatre<br>
-		
+			<br></br>
 		 </p>
+		 <hr class="dottedborder">
+		 <br></br>
 	</div>
 	
 	<div id = "textbox-languages"> 
@@ -151,8 +207,10 @@
 			English, Spanish, Hmong<br>
 			Linguistic Anthropology<br>
 			Classical literature (English, Hebrew, Arabic, etc.)<br>
-		
+			<br></br>
 		 </p>
+		 <hr class="dottedborder">
+		 <br></br>
 	</div>
 	
 	<div id = "textbox-sciences"> 
@@ -165,7 +223,6 @@
 			Chemistry<br>
 			Environmental<br>
 			<br></br>
-		
 		 </p>
 	</div>
 	
